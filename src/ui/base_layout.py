@@ -48,10 +48,9 @@ def style_base_layout():
                 
          /* Hide Top Bar of streamlit */
                 
-            #MainMenu, footer, header {
-                visibility: hidden;
-            }
-                
+            # # MainMenu, footer, header {
+            #     visibility: hidden !important;
+            # }
             .block-container {
                 padding-top:1.5rem !important;    
             }
@@ -59,7 +58,7 @@ def style_base_layout():
             h1 {
                 font-family: 'Climate Crisis', sans-serif !important;
                 font-size: 3.5rem !important;
-                line-height:1.1 1important;
+                line-height: 1.1 !important;
                 margin-bottom:0rem !important;
             }
                 
