@@ -51,6 +51,9 @@ def style_base_layout():
             # MainMenu, footer, header {
                 visibility: hidden !important;
             }
+            header[data-testid="stHeader"] {
+                display: none !important;
+            }
             .block-container {
                 padding-top:1.5rem !important;    
             }
