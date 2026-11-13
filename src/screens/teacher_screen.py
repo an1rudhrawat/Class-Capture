@@ -195,14 +195,6 @@ def teacher_dashboard():
             st.rerun()
     st.space()
 
-    col1, col2 = st.columns(2, width="stretch")
-    with col1:
-        st.header("Enrolled subjects")
-    with col2:
-        if st.button("Enroll in subject", type = 'primary', width='stretch'):
-            enroll_dialog()
-
-
     tab1, tab2, tab3 = st.columns(3)
     if 'current_teacher_tab' not in st.session_state:
         st.session_state.current_teacher_tab = 'take_attendance'

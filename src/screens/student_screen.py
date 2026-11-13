@@ -24,7 +24,7 @@ def student_dashboard():
             del st.session_state.student_data
             st.rerun()
             st.space()
-    st.header("Student Dashboard")
+    c1, c2 = st.columns(2)
     st.space()
     with c1:
         st.header("Enrolled Subjects")
